@@ -1,7 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api, use_key_in_widget_constructors
 import 'package:flutter/material.dart';
 
-import '../../../utils/app_theme.dart';
+import '../../app_theme.dart';
 import '../../widgets/custom_text_button.dart';
 import '../../widgets/default_btn.dart';
 
@@ -15,8 +15,6 @@ class WelcomeScreen extends StatefulWidget {
 }
 
 class _WelcomeScreenState extends State<WelcomeScreen> {
-  // FirebaseAuth firebaseAuth = FirebaseAuth.instance;
-
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
